@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/madia-query.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="jquery-3.4.1.min.js"></script>
+        <link rel="icon" type="image/png" href="icons/flight_30822.png" />
+        <title>Vos vacances</title>
+    </head>
+    <body>
+        <div id="principal">
+            <video id="backgroundVideo" autoplay muted loop>
+                <source src="images/mer4.mp4" preload="auto">
+            </video>
+            
+            <!-- <header>
+                <ul>
+                    <div><a href="index.html"><img src="images/home.png" alt=""></a></div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reserver.html">reservé</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="about.html">bout</a></li>
+                </ul>
+                
+                <label for="id"><img class="searchImg" src="icons/search.png" alt=""></label>
+                <input type="search" name="search" id="id" class="input" placeholder="Search">
+            </header> -->
+
+            <header>
+                <section>
+                    <div><a href="index.html"><img src="images/home.png" alt=""></a></div>
+                    
+                    <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+                    <input type="checkbox" id="toggle-1">
+                    
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="reserver.html">reservé</a></li>
+                            <li><a href="about.html">bout</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                        <img class="searchImg" src="icons/search.png" alt="">
+                        <label for="id"></label>
+                        <input type="search" name="search" id="id" class="input" placeholder="Search">
+                    </nav>
+                </section>
+            </header> 
+
+            <main>
+                <div class="container">
+                <div class="row">
+                    <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                        <div class="MultiCarousel-inner">
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel1.jpg" alt="hotel king place">
+                                    <h2 class="lead">Hotel King place</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 79 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info &#10132</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel3.jpg" alt="hotel lavalla">
+                                    <h2 class="lead">Hotel Lavalla</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 150 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/sea.jpg" alt="hotel ballou">
+                                    <h2 class="lead">Hotel Ballou</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 120 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/travel-.jpg" alt="otel aroundou">
+                                    <h2 class="lead">Hotel Aroundou </h2>
+                                    <p><span>Note: &#9733;  &#9733;</span></p>
+                                    <p>$ 75 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel10.jpg" alt="hotel sokulus">
+                                    <h2 class="lead">Hotel Sokulus</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 110 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel12.jpg" alt="">
+                                    <h2 class="lead">Hotel Guimor</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 79 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel13.jpg" alt="">
+                                    <h2 class="lead">Hotel Praha</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 50 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel14.jpg" alt="">
+                                    <h2 class="lead">Hotel Quiddo</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 99 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel15.jpeg" alt="">
+                                    <h2 class="lead">Aawad</h2>
+                                    <p><span>Note: &#9733; &#9733; </span></p>
+                                    <p>$ 50 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel16.jpeg" alt="">
+                                    <h2 class="lead">Bluder</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 59 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel16.jpeg" alt="">
+                                    <h2 class="lead">Devil</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 100 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel17.jpeg" alt="">
+                                    <h2 class="lead">Hotel Blanco</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 90 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info &#10132</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel3.jpg" alt="">
+                                    <h2 class="lead">Hotel Deff</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$89 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info &#10132</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/mald.jpg.fdmdownload" alt="">
+                                    <h2 class="lead">Hotel Panak</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 60 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel110.jpg.fdmdownload" alt="">
+                                    <h2 class="lead">Hotel Palabre</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 71 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/hotel1.jpg" alt="">
+                                    <h2 class="lead">Hotel Dumaro</h2>
+                                    <p><span>Note: &#9733; &#9733; &#9733;</span></p>
+                                    <p>$ 80 / Nuit</p>
+                                    <p>50% off</p>
+                                    <p><a href="#">Plus d'info</a></p>
+                                    <button>Voir l'offre</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary leftLst"><</button>
+                        <button class="btn btn-primary rightLst">></button>
+                    </div>
+                </div>
+
+                <div id="socios">
+                    <img src="icons/facebook.jpg" alt="logo facebook">
+                    <img src="icons/instagram-3.png" alt="logo instagram">
+                    <img src="icons/twitter1.png" alt="logo twitter">
+                    <img src="images/mail.png" alt="logo mail">
+                </div>
+                
+            </main>
+        </div>
+            
+        <script src="js/script.js"></script>
+        <script src="jquery-3.4.1.min.js"></script>
+    </body>
+</html>
